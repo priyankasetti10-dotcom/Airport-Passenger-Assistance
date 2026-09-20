@@ -1,0 +1,22 @@
+torch>=2.0
+torchvision>=0.15
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python-headless
+Pillow
+faiss-cpu
+librosa
+soundfile
+SpeechRecognition
+pocketsphinx
+spacy
+num2words
+jiwer
+joblib
+streamlit
+# spaCy English model:  python -m spacy download en_core_web_sm
+# Optional online upgrades (documented in report):
+#   openai-whisper        (speech-to-text replacement for PocketSphinx)
+#   transformers          (CLIP embeddings / DistilBERT intent classifier)
