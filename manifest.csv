@@ -1,0 +1,67 @@
+file,text,intent,voice,condition
+q000.wav,Where is gate B12?,find_gate,en-gb,clean
+q000_noisy.wav,Where is gate B12?,find_gate,en-gb,noisy
+q001.wav,How do I get to gate A3 from security?,find_gate,en-us,clean
+q001_noisy.wav,How do I get to gate A3 from security?,find_gate,en-us,noisy
+q002.wav,Which way to gates B1 to B20?,find_gate,en-gb+f3,clean
+q002_noisy.wav,Which way to gates B1 to B20?,find_gate,en-gb+f3,noisy
+q003.wav,How do I get to baggage claim?,baggage_claim,en-us+f4,clean
+q003_noisy.wav,How do I get to baggage claim?,baggage_claim,en-us+f4,noisy
+q004.wav,Where is the baggage reclaim hall?,baggage_claim,en-gb+m6,clean
+q004_noisy.wav,Where is the baggage reclaim hall?,baggage_claim,en-gb+m6,noisy
+q005.wav,Which belt has the bags from flight RA204?,baggage_claim,en-gb,clean
+q005_noisy.wav,Which belt has the bags from flight RA204?,baggage_claim,en-gb,noisy
+q006.wav,Where is the check in desk for international flights?,check_in,en-us,clean
+q006_noisy.wav,Where is the check in desk for international flights?,check_in,en-us,noisy
+q007.wav,Which desks are for long haul check in?,check_in,en-gb+f3,clean
+q007_noisy.wav,Which desks are for long haul check in?,check_in,en-gb+f3,noisy
+q008.wav,Where can I do self check in?,check_in,en-us+f4,clean
+q008_noisy.wav,Where can I do self check in?,check_in,en-us+f4,noisy
+q009.wav,How long is the queue at security?,security,en-gb+m6,clean
+q009_noisy.wav,How long is the queue at security?,security,en-gb+m6,noisy
+q010.wav,Where is security control?,security,en-gb,clean
+q010_noisy.wav,Where is security control?,security,en-gb,noisy
+q011.wav,Can I take a water bottle through security?,security,en-us,clean
+q011_noisy.wav,Can I take a water bottle through security?,security,en-us,noisy
+q012.wav,Where is the nearest toilet?,restroom,en-gb+f3,clean
+q012_noisy.wav,Where is the nearest toilet?,restroom,en-gb+f3,noisy
+q013.wav,Are there restrooms near gate B8?,restroom,en-us+f4,clean
+q013_noisy.wav,Are there restrooms near gate B8?,restroom,en-us+f4,noisy
+q014.wav,Where can I find a baby changing room?,restroom,en-gb+m6,clean
+q014_noisy.wav,Where can I find a baby changing room?,restroom,en-gb+m6,noisy
+q015.wav,Is there a lounge near terminal 2?,lounge,en-gb,clean
+q015_noisy.wav,Is there a lounge near terminal 2?,lounge,en-gb,noisy
+q016.wav,How do I get into the Skyview lounge?,lounge,en-us,clean
+q016_noisy.wav,How do I get into the Skyview lounge?,lounge,en-us,noisy
+q017.wav,Where is the quiet zone or prayer room?,lounge,en-gb+f3,clean
+q017_noisy.wav,Where is the quiet zone or prayer room?,lounge,en-gb+f3,noisy
+q018.wav,Where can I find airport transport?,transport,en-us+f4,clean
+q018_noisy.wav,Where can I find airport transport?,transport,en-us+f4,noisy
+q019.wav,How do I get the train to the city centre?,transport,en-gb+m6,clean
+q019_noisy.wav,How do I get the train to the city centre?,transport,en-gb+m6,noisy
+q020.wav,Where is the taxi pickup zone?,transport,en-gb,clean
+q020_noisy.wav,Where is the taxi pickup zone?,transport,en-gb,noisy
+q021.wav,Where is the nearest information desk?,information,en-us,clean
+q021_noisy.wav,Where is the nearest information desk?,information,en-us,noisy
+q022.wav,"I lost my phone, where is lost and found?",information,en-gb+f3,clean
+q022_noisy.wav,"I lost my phone, where is lost and found?",information,en-gb+f3,noisy
+q023.wav,"Who can help me, I need assistance?",information,en-us+f4,clean
+q023_noisy.wav,"Who can help me, I need assistance?",information,en-us+f4,noisy
+q024.wav,Where can I get food before my flight?,restaurant,en-gb+m6,clean
+q024_noisy.wav,Where can I get food before my flight?,restaurant,en-gb+m6,noisy
+q025.wav,Are there halal food options in the airport?,restaurant,en-gb,clean
+q025_noisy.wav,Are there halal food options in the airport?,restaurant,en-gb,noisy
+q026.wav,Where is the food court?,restaurant,en-us,clean
+q026_noisy.wav,Where is the food court?,restaurant,en-us,noisy
+q027.wav,Is my flight delayed?,flight_status,en-gb+f3,clean
+q027_noisy.wav,Is my flight delayed?,flight_status,en-gb+f3,noisy
+q028.wav,What is the status of flight RA204?,flight_status,en-us+f4,clean
+q028_noisy.wav,What is the status of flight RA204?,flight_status,en-us+f4,noisy
+q029.wav,Has boarding started for gate B12?,flight_status,en-gb+m6,clean
+q029_noisy.wav,Has boarding started for gate B12?,flight_status,en-gb+m6,noisy
+q030.wav,"I need wheelchair assistance, where do I go?",special_assistance,en-gb,clean
+q030_noisy.wav,"I need wheelchair assistance, where do I go?",special_assistance,en-gb,noisy
+q031.wav,Where is the special assistance desk?,special_assistance,en-us,clean
+q031_noisy.wav,Where is the special assistance desk?,special_assistance,en-us,noisy
+q032.wav,"My mother has reduced mobility, can someone help her to the gate?",special_assistance,en-gb+f3,clean
+q032_noisy.wav,"My mother has reduced mobility, can someone help her to the gate?",special_assistance,en-gb+f3,noisy
