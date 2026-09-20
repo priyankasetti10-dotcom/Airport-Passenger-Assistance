@@ -1,0 +1,113 @@
+text,intent,entities
+Where is gate B12?,find_gate,gate=B12
+How do I get to gate A3 from security?,find_gate,gate=A3
+Which way to gates B1 to B20?,find_gate,gate=B1-B20
+I need to find gate C7 quickly,find_gate,gate=C7
+Can you direct me to my departure gate B12?,find_gate,gate=B12
+gate a3 where,find_gate,gate=A3
+How far is gate B12 from the restaurants?,find_gate,gate=B12
+What is the walking time to gate A3?,find_gate,gate=A3
+Which direction is gate C7?,find_gate,gate=C7
+Take me to gate B12 please,find_gate,gate=B12
+Is gate A3 far from here?,find_gate,gate=A3
+What pier are gates B1 to B20 on?,find_gate,gate=B1-B20
+Looking for my boarding gate B12,find_gate,gate=B12
+How do I get to baggage claim?,baggage_claim,
+Where is the baggage reclaim hall?,baggage_claim,
+Which belt has the bags from flight RA204?,baggage_claim,flight=RA204
+Where do I collect my luggage after landing?,baggage_claim,
+baggage claim directions please,baggage_claim,
+"My suitcase, where do I pick it up?",baggage_claim,
+Is baggage claim on the arrivals level?,baggage_claim,zone=arrivals
+Which way to the luggage belts?,baggage_claim,
+"I just landed, where are the bags?",baggage_claim,
+Belt number for baggage reclaim please,baggage_claim,
+Where is luggage collection?,baggage_claim,
+Where is the check in desk for international flights?,check_in,service=international check-in
+Which desks are for long haul check in?,check_in,
+Where can I do self check in?,check_in,service=self check-in
+Where do I drop my bag after online check in?,check_in,
+check in area terminal 1,check_in,terminal=1
+What time does check in open?,check_in,
+Where are check in desks 30 to 40?,check_in,desk=30-40
+Which counter is my airline check in?,check_in,
+"I need to check in for my flight, where do I go?",check_in,
+Where are the check in kiosks?,check_in,
+Bag drop location please,check_in,
+How long is the queue at security?,security,
+Where is security control?,security,
+Can I take a water bottle through security?,security,
+Where is the fast track security lane?,security,service=fast track
+What are the liquid rules at security?,security,
+security check directions,security,
+Do I need to remove my laptop at security screening?,security,
+Which level is the security checkpoint on?,security,
+How do I get through security fastest?,security,
+Is the security queue long right now?,security,
+Where is the nearest toilet?,restroom,
+Are there restrooms near gate B8?,restroom,gate=B8
+Where can I find a baby changing room?,restroom,service=baby changing
+Is there an accessible toilet on pier B?,restroom,zone=Pier B
+toilets near the gates,restroom,
+I need the bathroom,restroom,
+Closest washroom to the food court?,restroom,
+Where are the ladies and gents toilets?,restroom,
+Disabled toilet location please,restroom,
+Is there a lounge near terminal 2?,lounge,terminal=2
+How do I get into the Skyview lounge?,lounge,service=Skyview Lounge
+Where is the quiet zone or prayer room?,lounge,service=prayer room
+Can I pay to enter the lounge?,lounge,
+Does the lounge have showers?,lounge,
+Which lounges can I use with priority pass?,lounge,
+Is there somewhere quiet to rest before boarding?,lounge,
+How much does lounge entry cost?,lounge,
+Where is the business lounge in terminal 2?,lounge,terminal=2
+Where can I find airport transport?,transport,
+How do I get the train to the city centre?,transport,service=train
+Where is the taxi pickup zone?,transport,service=taxi
+When does the last train leave the airport?,transport,service=train
+Where do the buses depart from?,transport,service=bus
+Where can I rent a car?,transport,service=car rental
+Is there a night bus to the city?,transport,service=bus
+How do I get to the city from the airport?,transport,
+Where do I catch the express train?,transport,service=train
+Best way to get downtown from here?,transport,
+Where is the taxi rank outside arrivals?,transport,service=taxi
+How often do trains run to the city centre?,transport,service=train
+Where is the nearest information desk?,information,
+"I lost my phone, where is lost and found?",information,service=lost and found
+"Who can help me, I need assistance?",information,
+Where can I get a map of the terminal?,information,
+Is there a first aid point in the terminal?,information,service=first aid
+Where do I report a lost bag?,information,service=lost and found
+"Can someone give me directions, is there a help desk?",information,
+Where do I ask about airport services?,information,
+"I found someone's wallet, where do I hand it in?",information,service=lost and found
+Where is the information point in departures?,information,
+Where can I get food before my flight?,restaurant,
+Are there halal food options in the airport?,restaurant,service=halal
+Where is the food court?,restaurant,
+Is there a coffee shop after security?,restaurant,
+What restaurants are open now?,restaurant,
+"I'm hungry, what food is there airside?",restaurant,
+Any vegan restaurants in the terminal?,restaurant,
+Where can I buy a sandwich and coffee?,restaurant,
+Which cafes are near the gates?,restaurant,
+Is my flight delayed?,flight_status,
+What is the status of flight RA204?,flight_status,flight=RA204
+Has boarding started for gate B12?,flight_status,gate=B12
+When does boarding close for my flight?,flight_status,
+Why is my flight to Berlin delayed?,flight_status,destination=Berlin
+Can you check if flight RA204 is on time?,flight_status,flight=RA204
+What time does my plane actually leave?,flight_status,
+Is boarding open yet for the Berlin flight?,flight_status,destination=Berlin
+Are there any delays this evening?,flight_status,
+"I need wheelchair assistance, where do I go?",special_assistance,service=wheelchair
+Where is the special assistance desk?,special_assistance,
+"My mother has reduced mobility, can someone help her to the gate?",special_assistance,
+Do you have help for hidden disabilities?,special_assistance,
+Where can I get a sunflower lanyard?,special_assistance,service=sunflower lanyard
+"I am travelling with a disabled passenger, what support is there?",special_assistance,
+Can I book a wheelchair to the gate?,special_assistance,service=wheelchair
+Where do passengers with reduced mobility check in?,special_assistance,
+Is there help for deaf passengers?,special_assistance,
